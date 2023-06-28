@@ -15,3 +15,6 @@ Examples:
   addLetters('y', 'c', 'b') = 'd' // notice the letters overflowing
   addLetters() = 'z'
 */
+
+
+// Solution
