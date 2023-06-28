@@ -24,3 +24,12 @@ function addLetters(...letters) {
 }
 
 // or
+
+let alphabet = 'abcdefghijklmnopqrstuvwxyz';
+function addLetters(...letters) {
+  let sum = 25;
+  for (let letter of letters) {
+    sum += alphabet.indexOf(letter) + 1;
+  }
+  return alphabet[sum % 26];
+}
